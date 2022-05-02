@@ -1,5 +1,7 @@
 # DATA TYPES e CONSTANTS
 
+## Data types
+
 Data types descreve as características técnicas de uma variável desse tipo.
 
 Tipo de dados	| Descrição	| Comprimento padrão |	Valor padrão
@@ -17,8 +19,33 @@ F	            | Flutuador	   |    8	           |    0
 * Data types definido pelo usuário: Use a palavra-chave **TYPES** para definir os tipos de dados.
 
 ~~~ABAP
-TYPES: nome(10) TYPE c,
+TYPES: nome(20) TYPE c,
        length   TYPE p DECIMALS 2,
        contador  TYPE i,
        id(5)    TYPE n.
 ~~~
+
+* Data types estruturados: é o agrupamento de vários tipos de dados simples sob um nome. Use as palavras-chave **BEGIN OF** e **END OF** para criar um tipo de dados estruturado.
+
+~~~ABAP
+TYPES: BEGIN OF estudante,
+        id(5)     TYPE n,
+        nome(10)  TYPE c,
+        dob       TYPE d,
+        lugar(10) TYPE c,
+        END OF estudante.
+~~~
+
+## CONSTANTS
+
+
+
+
+
+
+
+
+
+
+
+
