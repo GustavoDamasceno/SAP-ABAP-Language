@@ -4,47 +4,47 @@ As variáveis do sistema ABAP são acessíveis a partir de todos os programas AB
 
 A lista completa de variáveis do sistema ABAP encontra-se na tabela SYST no SAP. Campos individuais da estrutura SYST podem ser acessados usando **“SYST-“** ou **“SY-“**.
 
-* **SY-UNAME: Retorna o nome do usuário.
+* **SY-UNAME:** Retorna o nome do usuário.
 
-* **SY-DATUM: Retorna a data do sistema.
+* **SY-DATUM:** Retorna a data do sistema.
 
-* **SY-UZEIT: Retorna a hora, minuto e segundo do sistema
+* **SY-UZEIT:** Retorna a hora, minuto e segundo do sistema
 
-* **SY-TCODE: Retorna código da transação atual.
+* **SY-TCODE:** Retorna código da transação atual.
 
-* **SY-TABIX: Retorna o número da linha da tabela atual (Normalmente usando dentro de loop.)
+* **SY-TABIX:** Retorna o número da linha da tabela atual (Normalmente usando dentro de loop.)
 
-* **SY-LANGU: Retorna o idioma de logon do usuário.
+* **SY-LANGU:** Retorna o idioma de logon do usuário.
 
-* **SY-DYNNR: Retorna o número da tela atual.
+* **SY-DYNNR:** Retorna o número da tela atual.
 
-* **SY-UCOMM: Retorna o nome de um botão pressionado (OKCODE).
+* **SY-UCOMM:** Retorna o nome de um botão pressionado (OKCODE).
 
-* **SY-REPID: Retorna o nome do programa.
+* **SY-REPID:** Retorna o nome do programa.
 
-* **SY-CPROG: Nome do programa principal.
+* **SY-CPROG:** Nome do programa principal.
 
-* **SY-FDPOS: Utilizado na comparação de Strings.
+* **SY-FDPOS:** Utilizado na comparação de Strings.
 
-* **SY-BATCH: Indica a execução de um programa em background.
+* **SY-BATCH:** Indica a execução de um programa em background.
 
-* **SY-LINNO: Retorna a linha corrente de um relatório.
+* **SY-LINNO:** Retorna a linha corrente de um relatório.
 
-* **SY-LISEL: Retorna a linha selecionada em relatórios interativos.
+* **SY-LISEL:** Retorna a linha selecionada em relatórios interativos.
 
-* **SY-MANDT: Retorna o mandante do sistema.
+* **SY-MANDT:** Retorna o mandante do sistema.
 
-* **SY-PAGNO: Retorna a página atual de um relatório.
+* **SY-PAGNO:** Retorna a página atual de um relatório.
 
-* **SY-TVAR0 .. SY-TVAR9: Retorna elementos de textos ou títulos de relatórios.
+* **SY-TVAR0 .. SY-TVAR9:** Retorna elementos de textos ou títulos de relatórios.
 
-* **SY-VLINE: Efetua a fechamento de bordas em um relatório.
+* **SY-VLINE:** Efetua a fechamento de bordas em um relatório.
 
-* **SY-ULINE(n): Imprime uma linha com n posições.
+* **SY-ULINE(n):** Imprime uma linha com n posições.
 
-* **SY-DBCNT: Dentro de SELECT, contém o contador de interação.
+* **SY-DBCNT:** Dentro de SELECT, contém o contador de interação.
 
-* **SY-SUBRC: Responsável por nos orientar se uma determinada operação foi bem sucedida.
+* **SY-SUBRC:** Responsável por nos orientar se uma determinada operação foi bem sucedida.
 
 
 ~~~ABAP
