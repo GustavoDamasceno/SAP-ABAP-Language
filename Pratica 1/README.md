@@ -1,4 +1,4 @@
-#Pratica 1
+# Pratica 1
 Given a word, compute the Scrabble score for that word.
 
 Letter Values
