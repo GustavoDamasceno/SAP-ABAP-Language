@@ -54,3 +54,28 @@ Usando Keywords
         40           5          40          25 
 ~~~
 
+* **Limpar variáveis ABAP:** Use a palavra-chave **CLEAR** para definir as variáveis para valores padrão.
+
+~~~ABAP
+DATA: number1 TYPE i,
+      number2 TYPE i.
+
+number1 = 20 + 30.
+number2 = 30 - 10.
+
+WRITE:/ 'Antes de limpar'.
+WRITE:/ number1, number2.
+
+clear: number1, number2.
+
+WRITE:/ 'Depois de Limpar'.
+WRITE:/ number1, number2.
+~~~
+Saída:
+~~~
+Antes de limpar
+        50          20 
+Depois de Limpar
+         0           0 
+~~~
+
