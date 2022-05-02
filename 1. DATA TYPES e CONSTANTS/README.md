@@ -16,7 +16,7 @@ P	            | Embalado	   |    8	           |    0
 F	            | Flutuador	   |    8	           |    0
 
 
-* Data types definido pelo usuário: Use a palavra-chave **TYPES** para definir os tipos de dados.
+* **Data types definido pelo usuário:** Use a palavra-chave **TYPES** para definir os tipos de dados.
 
 ~~~ABAP
 TYPES: nome(20) TYPE c,
@@ -25,7 +25,7 @@ TYPES: nome(20) TYPE c,
        id(5)    TYPE n.
 ~~~
 
-* Data types estruturados: é o agrupamento de vários tipos de dados simples sob um nome. Use as palavras-chave **BEGIN OF** e **END OF** para criar um tipo de dados estruturado.
+* **Data types estruturados:** é o agrupamento de vários tipos de dados simples sob um nome. Use as palavras-chave **BEGIN OF** e **END OF** para criar um tipo de dados estruturado.
 
 ~~~ABAP
 TYPES: BEGIN OF estudante,
