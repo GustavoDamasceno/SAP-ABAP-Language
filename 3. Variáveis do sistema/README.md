@@ -1,0 +1,1 @@
+# Variáveis do sistema
