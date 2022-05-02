@@ -14,4 +14,11 @@ P	            | Embalado	   |    8	           |    0
 F	            | Flutuador	   |    8	           |    0
 
 
-* <u>Data types definido pelo usuário.<u>
+* Data types definido pelo usuário: Use a palavra-chave **TYPES** para definir os tipos de dados.
+
+~~~ABAP
+TYPES: nome(10) TYPE c,
+       length   TYPE p DECIMALS 2,
+       contador  TYPE i,
+       id(5)    TYPE n.
+~~~
