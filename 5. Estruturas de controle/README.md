@@ -36,4 +36,23 @@ Saída:
 Condição falsa
 ~~~
 
+**IF-ELSEIF** – Usada para verificar várias condições.
 
+~~~ABAP
+DATA: a TYPE i VALUE 2.
+
+IF a > 5.
+  WRITE:/ a, 'Maior que', 5.
+ELSEIF a > 4.
+  WRITE:/ a, 'Maior que', 4.
+ELSEIF a > 3.
+  WRITE:/ a, 'Maior que', 3.
+ELSE.
+  WRITE:/ a, 'Menor que', 3.
+ENDIF.
+~~~
+
+Saída:
+~~~
+2 Menor que 3
+~~~
