@@ -2,7 +2,7 @@
 
 ## Data types
 
-Data types descreve as características técnicas de uma variável desse tipo.
+Data types descreve as características técnicas de uma variável desse tipo. O ABAP oferece ao programador uma rica variedade de data types de comprimento fixo e variável. A tabela a seguir lista os tipos de dados elementares ABAP -
 
 Tipo de dados	| Descrição	| Comprimento padrão |	Valor padrão
 ------------- | --------- | ------------------ | -----------------
@@ -38,7 +38,12 @@ TYPES: BEGIN OF estudante,
 
 ## CONSTANTS
 
+Constants são usadas para armazenar um valor sob um nome. Devemos especificar o valor quando declaramos uma constante e o valor não pode ser alterado posteriormente no programa. Use a palavra-chave **CONSTANTS** para declarar uma constante e **VALUES** para definir o valor.
 
+~~~ABAP
+CONSTANTS: pi  TYPE p DECIMALS 2 VALUE '3.14',
+           sim TYPE c VALUE 'X'.
+~~~
 
 
 
