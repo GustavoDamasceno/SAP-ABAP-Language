@@ -56,3 +56,24 @@ Saída:
 ~~~
 2 Menor que 3
 ~~~
+
+
+* **CASE-ENDCASE – Ramificação baseada no conteúdo da variável:**
+
+~~~ABAP
+DATA: a TYPE i VALUE 4.
+
+CASE a.
+  WHEN 3.
+    WRITE:/ a, 'igual a ', 3.
+  WHEN 4.
+    WRITE:/ a, 'igual a ', 4.
+  WHEN OTHERS.
+    WRITE:/ 'Não foi encontrado'.
+ENDCASE.
+~~~
+
+Saída:
+~~~
+4 igual a 4
+~~~
