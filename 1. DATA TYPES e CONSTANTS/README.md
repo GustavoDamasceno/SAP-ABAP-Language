@@ -14,3 +14,4 @@ P	            | Embalado	   |    8	           |    0
 F	            | Flutuador	   |    8	           |    0
 
 
+* <u>Data types definido pelo usuário.<u>
