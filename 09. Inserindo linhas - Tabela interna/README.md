@@ -60,10 +60,10 @@ ENDLOOP.
 ~~~
 Saída:
 ~~~
-ID	    | Name
-00001	  | JOHN
-00002	  | JIM
-00003	  | JACK
+ID	     Name
+00001	   JOHN
+00002	   JIM
+00003	   JACK
 
 After using Index addition
 ID	    Name
