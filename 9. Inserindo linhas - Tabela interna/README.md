@@ -1,1 +1,0 @@
-# Inserindo linhas - Tabela interna
