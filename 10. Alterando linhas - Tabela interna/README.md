@@ -1,1 +1,0 @@
-# Alterando linhas - Tabela interna
