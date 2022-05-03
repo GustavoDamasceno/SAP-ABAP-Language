@@ -1,0 +1,1 @@
+# Deletando linhas - Tabela interna
