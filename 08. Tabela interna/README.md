@@ -37,7 +37,7 @@ DATA: gwa_student TYPE ty_student.
 *--------------------------------------------------------------*
 *Data Declaration
 *--------------------------------------------------------------*
-"Referring to local data type
+"Referindo-se ao tipo de dados local
 DATA: it TYPE TABLE OF ty_student.
 
 gwa_student-id    = 1.
