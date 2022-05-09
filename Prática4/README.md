@@ -15,5 +15,5 @@ Cipher: zyxwvutsrqponmlkjihgfedcba
 
 O texto cifrado é escrito em grupos de comprimento fixo, o tamanho tradicional do grupo é de 5 letras e a pontuação é excluída. Isso é para tornar mais difícil adivinhar as coisas com base nos limites das palavras.
 
-A codificação **test** dá **gvhg**
-A decodificação **gvhg** dá **test**
+* A codificação **test** dá **gvhg**
+* A decodificação **gvhg** dá **test**
