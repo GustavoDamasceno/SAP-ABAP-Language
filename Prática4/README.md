@@ -18,5 +18,3 @@ O texto cifrado é escrito em grupos de comprimento fixo, o tamanho tradicional 
 * A codificação **test** dá **gvhg**
 * A decodificação **gvhg** dá **test**
 
-
-(... Em andamento)
